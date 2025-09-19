@@ -19,6 +19,10 @@ Psyness Token (PSS) is a manifesto-driven crypto asset deployed on BNB Chain. Th
 
 Psyness blends decentralized psychology, cyber-cosmic clarity, and transparent tokenomics. Every contract and page is designed to reflect reversibility, reviewer trust, and philosophical integrity.
 
+## Canonical Contract
+- Source: [PsynessToken.sol](https://github.com/ThePsyness/Psyness-Token/blob/main/contracts/PsynessToken.sol)
+- Verified on BscScan: [View Contract](https://bscscan.com/address/0xc024dea9cecd31fc15648dcb9a52afa21d7f2577#code)
+
 ---
 
 For questions or collaboration, contact: `vibes@psyness.com`
