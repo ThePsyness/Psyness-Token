@@ -1,17 +1,15 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
 // Psyness Token (PSS)
 // Canonical contract selected for BscScan verification
 // Deployed at: 0xc024dea9cecd31fc15648dcb9a52afa21d7f2577
 // License: MIT
 // Source: https://github.com/ThePsyness/Psyness-Token/blob/main/contracts/PsynessToken.sol
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
 
 // File: @openzeppelin/contracts/token/ERC20/IERC20.sol
 
-
 // OpenZeppelin Contracts (last updated v5.4.0) (token/ERC20/IERC20.sol)
-
-pragma solidity >=0.4.16;
 
 /**
  * @dev Interface of the ERC-20 standard as defined in the ERC.
@@ -93,8 +91,6 @@ interface IERC20 {
 
 // OpenZeppelin Contracts (last updated v5.4.0) (token/ERC20/extensions/IERC20Metadata.sol)
 
-pragma solidity >=0.6.2;
-
 
 /**
  * @dev Interface for the optional metadata functions from the ERC-20 standard.
@@ -121,7 +117,6 @@ interface IERC20Metadata is IERC20 {
 
 // OpenZeppelin Contracts (last updated v5.0.1) (utils/Context.sol)
 
-pragma solidity ^0.8.20;
 
 /**
  * @dev Provides information about the current execution context, including the
@@ -151,7 +146,6 @@ abstract contract Context {
 
 
 // OpenZeppelin Contracts (last updated v5.4.0) (interfaces/draft-IERC6093.sol)
-pragma solidity >=0.8.4;
 
 /**
  * @dev Standard ERC-20 Errors
