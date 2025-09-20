@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
+
 // Psyness Token (PSS)
 // Canonical contract selected for BscScan verification
-// Deployed at: 0xc024dea9cecd31fc15648dcb9a52afa21d7f2577
+// Deployed at: 0x3571494ec9219331992b79a45431d95483330420
 // License: MIT
 // Source: https://github.com/ThePsyness/Psyness-Token/blob/main/contracts/PsynessToken.sol
-// SPDX-License-Identifier: MIT
 
 // File: @openzeppelin/contracts/token/ERC20/IERC20.sol
 
@@ -722,7 +722,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 /// @title Psyness Token (PSS)
 /// @notice Canonical contract selected for BscScan verification
-/// @dev Deployed at: 0xc024dea9cecd31fc15648dcb9a52afa21d7f2577
+/// @dev Deployed at: // Deployed at: 0x3571494ec9219331992b79a45431d95483330420
 /// @custom:source https://github.com/ThePsyness/Psyness-Token/blob/main/contracts/PsynessToken.sol
 
 contract PsynessToken is ERC20, Ownable {
