@@ -5,6 +5,7 @@ Built for transparency, reviewer clarity, and philosophical integrity.
 
 ---
 
+
 ## 🔍 Overview
 
 Psyness Token (PSS) is a manifesto-driven crypto asset deployed on BNB Chain.  
@@ -12,8 +13,9 @@ This repository hosts the canonical smart contract, audit trail, and metadata de
 
 - 🌐 Homepage: [psyness.com](https://psyness.com)
 - 📜 Manifesto: [The Psyness Manifesto](https://psyness.com/the-psyness-pss-manifesto-awakening-the-psyche-in-a-cyber-cosmic-age)
-- 📊 Audit Trail: [`TokenAuditTrail.md`](./TokenAuditTrail.md)
+- 📊 Audit Trail: [TokenAuditTrail.md](https://github.com/ThePsyness/Psyness-Token/blob/main/TokenAuditTrail.md)
 - 🔗 Verified Contract: [`0x3571494ec9219331992b79a45431d95483330420`](https://bscscan.com/token/0x3571494ec9219331992b79a45431d95483330420)
+
 
 ---
 
