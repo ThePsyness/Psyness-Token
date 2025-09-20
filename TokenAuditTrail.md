@@ -1,34 +1,47 @@
-# Psyness Token (PSS) — Audit Trail
+# PsynessToken Deployment Audit Trail
 
-This document provides a transparent record of all Psyness Token deployments, including deprecated contracts and the selected canonical contract for BscScan verification.
-
----
-
-## ✅ Canonical Contract
-
-- **Token**: Psyness Token  
-- **Symbol**: PSS  
-- **Contract Address**: `0xc024dea9cecd31fc15648dcb9a52afa21d7f2577`  
-- **Total Supply**: 100,000,000  
-- **Standard**: BEP-20 (Binance Smart Chain)  
-- **Status**: Official — selected for verification  
-- **View on BscScan**: [Psyness Token on BscScan](https://bscscan.com/token/0xc024dea9cecd31fc15648dcb9a52afa21d7f2577)
+This document records every contract creation attempt from wallet `0x5eC1Ef0a004728F7649670f945DD81E0BD43c489`, leading to the final verified PsynessToken (PSS) on BNB Chain.
 
 ---
 
-## 🗃️ Deployment History
+## ✅ Final Verified Contract
 
-| Token          | Contract Address                                  | Status     | Notes                    |
-|----------------|---------------------------------------------------|------------|--------------------------|
-| PSY            | `0x5eC1Ef0a004728F7649670f945DD81E0BD43c489`       | Deprecated | Early branding test      |
-| PSN (v1)       | `0xdae3152ad5b71f0f27f7741aaf319ad3ef36350d`       | Deprecated | Supply mismatch          |
-| PSN (v2)       | `0xab84b22b0a55c221571036376a948fea1d787edd`       | Deprecated | Not selected for launch  |
-| PSS (test)     | `0x4f371398c7c2a131e3cf8148303fcfc7ac93d71d`       | Deprecated | Pre-final iteration      |
-| PSS (canonical)| `0xc024dea9cecd31fc15648dcb9a52afa21d7f2577`       | Official   | Selected for verification|
+| Token         | Contract Address                                                                 | Status          | Notes                                                                 |
+|---------------|-----------------------------------------------------------------------------------|------------------|-----------------------------------------------------------------------|
+| Psyness (PSS) | [0x3571494ec9219331992b79a45431d95483330420](https://bscscan.com/address/0x3571494ec9219331992b79a45431d95483330420) | ✅ Verified       | Final deployment with verified source, ABI exposed, token tracker active |
 
-> All contracts were deployed from the same wallet:  
-> `0x5eC1Ef0a004728F7649670f945DD81E0BD43c489`  
-> Deprecated contracts remain visible for transparency but are not part of the official Psyness ecosystem.
+---
+
+## ❌ Previous Attempts
+
+| Token         | Contract Address                                                                 | Status          | Notes                                                                 |
+|---------------|-----------------------------------------------------------------------------------|------------------|-----------------------------------------------------------------------|
+| PsynessToken  | [0x538c8d44a9c654c86152b147a6cde177af175ef51488ff07c4b38b62745dceae](https://bscscan.com/address/0x538c8d44a9c654c86152b147a6cde177af175ef51488ff07c4b38b62745dceae) | ❌ Oversized      | 20× gas of final version, failed verification due to bloated bytecode |
+| —             | [0x6ee32c8e8ad2221e0c3d57f12b12d85533e68cc5e2bf9797574d555e4ecf8dbd](https://bscscan.com/address/0x6ee32c8e8ad2221e0c3d57f12b12d85533e68cc5e2bf9797574d555e4ecf8dbd) | ❌ Stub            | Minimal gas, likely placeholder or failed deployment                  |
+| Context       | [0x2ffcce491c576d39d8c7c837a71f21eb0bf662d0904d2ea1d895b88a89bb762e](https://bscscan.com/address/0x2ffcce491c576d39d8c7c837a71f21eb0bf662d0904d2ea1d895b88a89bb762e) | ❌ Wrong contract | Remix defaulted to OpenZeppelin’s `Context` base class                |
+| Context       | [0xc0ab758386d7d9d84ea5956018869fc6f8a6088b6409e80e6e18d1851a01ce6d](https://bscscan.com/address/0xc0ab758386d7d9d84ea5956018869fc6f8a6088b6409e80e6e18d1851a01ce6d) | ❌ Duplicate       | Another `Context` deployment due to Remix artifact confusion          |
+| PsynessToken  | [0x73d6d01b070f6994d17a711910f9c0c37c5838602d37a59d809901e93dd6836c](https://bscscan.com/address/0x73d6d01b070f6994d17a711910f9c0c37c5838602d37a59d809901e93dd6836c) | ❌ Bytecode mismatch | Correct name, failed verification due to artifact mismatch            |
+| —             | [0x41d52ed376b5000063e4cc6b80e1938b0261ba66d43004e66e6e4252b39f6cc4](https://bscscan.com/address/0x41d52ed376b5000063e4cc6b80e1938b0261ba66d43004e66e6e4252b39f6cc4) | ❌ Not verified    | No ABI, no ERC20 interface                                            |
+| —             | [0xcc9398260ea40f27026f008883dd27d4777adb0e954af46dd75d0135f6e8a091](https://bscscan.com/address/0xcc9398260ea40f27026f008883dd27d4777adb0e954af46dd75d0135f6e8a091) | ❌ Not verified    | No ERC20 metadata                                                     |
+| —             | [0x0fe515f5b55aa648c734d274af7d87663ce90dfa90b6c62d70d7a093c6668e9c](https://bscscan.com/address/0x0fe515f5b55aa648c734d274af7d87663ce90dfa90b6c62d70d7a093c6668e9c) | ❌ No token logic  | Likely test or miscompiled contract                                   |
+| —             | [0x7a90feeba8873c412234916ef12e39b6146aa85d05be4d6181b052c649cd53c4](https://bscscan.com/address/0x7a90feeba8873c412234916ef12e39b6146aa85d05be4d6181b052c649cd53c4) | ❌ No token logic  | No ABI, no ERC20 interface                                            |
+| —             | [0x9566e349bda67de39bc931135b55ec0e5241f44e](https://bscscan.com/address/0x9566e349bda67de39bc931135b55ec0e5241f44e) | ❌ No token tracker | Unverified contract, no ERC20 metadata or activity                    |
+
+---
+
+## 🧠 Notes
+
+- All deployments were made from the same wallet: `0x5eC1Ef0a004728F7649670f945DD81E0BD43c489`
+- Final verified contract uses minimal gas and matches flattened source exactly
+- Audit trail reflects every attempt, including failed verifications and base-class artifacts
+
+---
+
+## 📬 Contact
+
+For questions or verification requests:  
+📧 `vibes@psyness.com`
+
 
 ---
 
