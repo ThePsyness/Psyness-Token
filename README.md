@@ -1,28 +1,40 @@
-# Psyness-Token
-Canonical smart contract and audit trail for Psyness Token (PSS) on BNB Chain. Built for transparency, reviewer clarity, and philosophical integrity.
-## 🔍 Overview
+# Psyness Token (PSS)
 
-Psyness Token (PSS) is a manifesto-driven crypto asset deployed on BNB Chain. This repository hosts the canonical smart contract, audit trail, and metadata declarations to support public verification and reviewer clarity.
-
-- **Homepage**: [psyness.com](https://psyness.com)
-- **Manifesto**: [The Psyness Manifesto](https://www.psyness.com/the-psyness-pss-manifesto-awakening-the-psyche-in-a-cyber-cosmic-age/)
-- **Token Audit Trail**: [Audit Trail Section](https://www.psyness.com/the-psyness-pss-manifesto-awakening-the-psyche-in-a-cyber-cosmic-age/#token-audit-trail)
-- **Canonical Contract**: [View on BscScan](https://bscscan.com/token/0xc024dea9cecd31fc15648dcb9a52afa21d7f2577)
-
-## 📁 Repository Contents
-
-- `/contracts/` — Final verified PSS smart contract  
-- `TokenAuditTrail.md` — Deployment history, supply declarations, and deprecation notes  
-- `README.md` — Project overview and links
-
-## 🧠 Philosophy Meets Function
-
-Psyness blends decentralized psychology, cyber-cosmic clarity, and transparent tokenomics. Every contract and page is designed to reflect reversibility, reviewer trust, and philosophical integrity.
-
-## Canonical Contract
-- Source: [PsynessToken.sol](https://github.com/ThePsyness/Psyness-Token/blob/main/contracts/PsynessToken.sol)
-- Verified on BscScan: [View Contract](https://bscscan.com/address/0xc024dea9cecd31fc15648dcb9a52afa21d7f2577#code)
+**Canonical smart contract and audit trail for Psyness Token (PSS) on BNB Chain.**  
+Built for transparency, reviewer clarity, and philosophical integrity.
 
 ---
 
-For questions or collaboration, contact: `vibes@psyness.com`
+## 🔍 Overview
+
+Psyness Token (PSS) is a manifesto-driven crypto asset deployed on BNB Chain.  
+This repository hosts the canonical smart contract, audit trail, and metadata declarations to support public verification and reviewer clarity.
+
+- 🌐 Homepage: [psyness.com](https://psyness.com)
+- 📜 Manifesto: [The Psyness Manifesto](https://psyness.com/the-psyness-pss-manifesto-awakening-the-psyche-in-a-cyber-cosmic-age)
+- 📊 Audit Trail: [`TokenAuditTrail.md`](./TokenAuditTrail.md)
+- 🔗 Verified Contract: [`0x3571494ec9219331992b79a45431d95483330420`](https://bscscan.com/token/0x3571494ec9219331992b79a45431d95483330420)
+
+---
+
+## 📁 Repository Contents
+
+- `contracts/PsynessToken.sol` — Final verified source code
+- `TokenAuditTrail.md` — Deployment history and deprecation notes
+- `SECURITY.md` — Inheritance, verification, and known limitations
+- `metadata/` — Logo and metadata declarations (optional)
+
+---
+
+## 🧠 Philosophy Meets Function
+
+Psyness blends decentralized psychology, cyber-cosmic clarity, and transparent tokenomics.  
+Every contract and page is designed to reflect reversibility, reviewer trust, and philosophical integrity.
+
+---
+
+## 📬 Contact
+
+For questions, collaboration, or philosophical debate:  
+📧 `vibes@psyness.com`
+
