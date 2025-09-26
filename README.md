@@ -35,6 +35,11 @@ Every contract and page is designed to reflect reversibility, reviewer trust, an
 
 ---
 
+<p align="center">
+  <img src="https://www.psyness.com/wp-content/uploads/2025/09/PSYNESS-TOKEN-32X32.svg" alt="PsynessToken Logo" width="128"/>
+</p>
+
+
 ## 📬 Contact
 
 For questions, collaboration, or philosophical debate:  
