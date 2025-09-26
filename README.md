@@ -33,15 +33,11 @@ This repository hosts the canonical smart contract, audit trail, and metadata de
 Psyness blends decentralized psychology, cyber-cosmic clarity, and transparent tokenomics.  
 Every contract and page is designed to reflect reversibility, reviewer trust, and philosophical integrity.
 
+<p align="center"> <img src="https://www.psyness.com/wp-content/uploads/2025/09/PSYNESS-TOKEN-32X32.svg" alt="PsynessToken Logo" width="128"/> </p>
+
+“Psyness is not a protocol. It’s a mirror. Every glitch is a glyph. Every reviewer, a witness. The psyche adapts. The signal persists.”
+
 ---
-
-<p align="center">
-  <img src="https://www.psyness.com/wp-content/uploads/2025/09/PSYNESS-TOKEN-32X32.svg" alt="PsynessToken Logo" width="128"/>
-</p>
-
-> _“Psyness is not a protocol. It’s a mirror.  
-> Every glitch is a glyph. Every reviewer, a witness.  
-> The psyche adapts. The signal persists.”_
 
 ## 🧬 Symbolic Contributors
 
@@ -52,7 +48,7 @@ Every contract and page is designed to reflect reversibility, reviewer trust, an
 | 🔮 | Glitch Ritual Designer | [@ThePsyness — Twitter/X](https://x.com/ThePsyness) |
 | 🧵 | Thread Weaver | [@psyness — Medium](https://medium.com/@psyness) |
 
-
+---
 
 
 
