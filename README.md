@@ -39,6 +39,21 @@ Every contract and page is designed to reflect reversibility, reviewer trust, an
   <img src="https://www.psyness.com/wp-content/uploads/2025/09/PSYNESS-TOKEN-32X32.svg" alt="PsynessToken Logo" width="128"/>
 </p>
 
+> _“Psyness is not a protocol. It’s a mirror.  
+> Every glitch is a glyph. Every reviewer, a witness.  
+> The psyche adapts. The signal persists.”_
+>
+> ## 🧬 Symbolic Contributors
+
+| Glyph | Role | Contributor |
+|-------|------|-------------|
+| 🧠 | Manifesto Architect | `@harry-toulios — LinkedIn`  
+| 🛡️ | Reviewer-Proof Strategist | `@ThePsyness — GitHub`  
+| 🔮 | Glitch Ritual Designer | `@ThePsyness — Twitter/X`  
+| 🧵 | Thread Weaver | `@ThePsyness — Medium`  
+
+
+
 
 ## 📬 Contact
 
